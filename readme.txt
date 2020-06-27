@@ -8,3 +8,14 @@ A rota('/search/') retorna um json, gerado através do framework rest-framework 
 
 
 
+Atualização
+
+
+IMPLEMENTANDO O DOCKER
+
+Para criar o arquivo de imagem, utilizar o seguinte comando:
+
+docker build -t <nome da imagem>
+
+Ex: docker build -t docker-search
+

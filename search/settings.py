@@ -76,7 +76,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'website',
-        'HOST': 'mongodb+srv://raphalcao:abcd1234@cluster0-weuso.gcp.mongodb.net/website?retryWrites=true&w=majority',
+        'HOST': 'mongodb',
+        'PORT': 27017,
         'USER': 'raphalcao',
         'PASSWORD': 'abcd1234',
     }

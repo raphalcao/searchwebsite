@@ -1,0 +1,53 @@
+version: '3'
+
+volumes:
+  searchwebsite:
+
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    volumes:
+      - ./searchwebsite:/models.py
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: raphalcao
+      MONGO_INITDB_ROOT_PASSWORD: abcd1234
+      MONGO_INITDB_DATABASE: website
+    ports:
+      - 27017:27017
+
+
+  web:
+    image: app
+    restart: always
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/search
+    ports:
+      - 8000:8000
+    links:
+      - mongodb
+    depends_on:
+      - migration
+
+  migration:
+    build: .
+    image: app
+    command: python manage.py migrate
+    volumes:
+      - .:/search
+    links:
+      - mongodb
+    depends_on:
+      - make_migrations
+
+  make_migrations:
+    build: .
+    image: app
+    command: python manage.py makemigrations
+    volumes:
+      - .:/search
+    links:
+      - mongodb
+    depends_on:
+      - mongodb
