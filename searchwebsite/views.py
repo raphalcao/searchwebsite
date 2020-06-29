@@ -10,7 +10,7 @@ def localhost(request):
 
 
 def search(request):
-    nome = request.POST['text1']
+    nome = request.POST['text1'].lower()
     search = Website.objects.filter(name=nome)
 
     return render(request, 'index.html', {'search': search})
