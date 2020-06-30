@@ -20,8 +20,8 @@ from searchwebsite.views import localhost, search, sites_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('search/', sites_view),
-    path('', localhost),
+    path('search/', sites_view, name='search'),
+    path('', localhost, name='list'),
     path('localizar/', search, name='index')
 
 ]

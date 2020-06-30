@@ -2,4 +2,5 @@ venv/
 __pycache__/
 .mypy**
 .vscode/*
+htmlcov/*
 !.vscode/launch.json

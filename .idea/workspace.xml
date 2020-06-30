@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8453f3ca-7ed3-4533-9f7a-7ddc4079f09a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.coveragerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchwebsite/tests/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchwebsite/tests/test_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/searchwebsite/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchwebsite/serializers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchwebsite/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchwebsite/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchwebsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchwebsite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchwebsite/tests.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gisel\Documents\projetos\search\searchwebsite\tests\test_views" />
       <recent name="C:\Users\gisel\Documents\projetos\search" />
       <recent name="C:\Users\gisel\Documents\projetos\search\search" />
     </key>
@@ -92,10 +99,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1593037430036" />
-    <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593211221411">
+    <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593520788472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1593211221411" />
+    <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1600.860@0.0.1536.824" timestamp="1593520788472" />
     <state x="496" y="134" key="#docker-compose.yaml:_Compose_Deployment" timestamp="1593391851018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

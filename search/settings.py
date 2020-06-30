@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'search.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'website',
+        'NAME': 'website3',
         'HOST': 'mongodb',
         'PORT': 27017,
         'USER': 'raphalcao',
