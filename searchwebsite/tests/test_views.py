@@ -19,6 +19,10 @@ class TestViews(TestCase):
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'index.html')
 
+    def test_sites_view(self):
+        response = self.client.get(self.sites_view)
+        self.assertEquals(response.status_code, 200)
+
     def test_search_POST(self):
         Website.objects.filter(
             name=self.project1

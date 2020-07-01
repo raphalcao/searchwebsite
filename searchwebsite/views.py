@@ -5,24 +5,21 @@ from .models import Website
 
 
 def localhost(request):
-    search = Website.objects.all()
-    return render(request, 'index.html', {'searchs': search})
+    return render(request, 'index.html')
 
 
 def search(request):
     nome = request.POST['text1'].lower()
-    search = Website.objects.filter(name=nome)
-
-    return render(request, 'index.html', {'search': search})
+    var_search = Website.objects.filter(name=nome)
+    return render(request, 'index.html', {'search': var_search})
 
 
 @api_view(['GET'])
 def sites_view(request):
     website = Website.objects.all()
     output = [{
-        'name': search.name,
-        'link': search.link,
+        'name': var_search.name,
+        'link': var_search.link,
         'description': search.description
-    } for search in website]
-
+    } for var_search in website]
     return Response(output)

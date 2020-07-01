@@ -23,5 +23,4 @@ urlpatterns = [
     path('search/', sites_view, name='search'),
     path('', localhost, name='list'),
     path('localizar/', search, name='index')
-
 ]

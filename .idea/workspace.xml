@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8453f3ca-7ed3-4533-9f7a-7ddc4079f09a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.coveragerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchwebsite/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchwebsite/tests/test_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searchwebsite/tests/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchwebsite/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchwebsite/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchwebsite/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/searchwebsite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchwebsite/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
